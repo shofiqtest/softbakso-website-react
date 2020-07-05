@@ -1,0 +1,73 @@
+/* Adding CSS manually is only necessary in JSFiddle,
+   where CSS can't be inserted into the <head> */
+.typed-cursor {
+    opacity: 1;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+}
+
+@keyframes typedjsBlink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes typedjsBlink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.typed-fade-out {
+    opacity: 0;
+    transition: opacity .25s;
+    -webkit-animation: 0;
+    animation: 0;
+}
+
+.homeTitlePromoText {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 0px;
+    height: auto;
+    font-weight: 900;
+
+}
+
+.homeSubtitlePromoText {
+    height: 32px;
+    margin-top: 25%;
+}
+
+
+.homeTitlePromoTextMobile {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    text-align: right;
+    margin-bottom: 0px;
+    height: 32px;
+    padding-bottom: 90px;
+    margin-bottom: 0px !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+
+.homeSubtitlePromoTextMobile {
+    font-size: 15px;
+    margin-top: 60%;
+}

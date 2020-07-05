@@ -1,0 +1,76 @@
+.WorkProcessCard2TopMarginMobile {
+    padding-top: 20px;
+    vertical-align: middle;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    flex: 1;
+}
+
+
+/*meeting-image-smaller-devices*/
+
+.meeting-imageMobile {
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    padding-top: 20px;
+    padding-right: 12px;
+    padding-left: 85px;
+    width: 80%;
+    /*height:80%;*/
+}
+
+
+
+/*meeting-image-smaller-devices*/
+/*NO LEFT FOR SMALLER DEVICES*/
+
+.workProcessCard2__span1--outerDivMobile {
+    margin-left: 15px;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+    .workProcessCard2_main_divMobile {
+        background-color: #E5E5E5;
+        padding-top: 0;
+        /*height: auto;*/
+        height: 490px;
+        /*TESTED*/
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .workProcessCard2_main_divMobile {
+        background-color: #E5E5E5;
+        padding-top: 0;
+        height: 490px;
+    }
+}
+
+
+/*@media only screen and (min-width: 600px) and (max-width: 900px)  {*/
+/*.workProcessCard2_main_div {*/
+/*background-color: #E5E5E5;*/
+/*padding-top: 0;*/
+/*height: 490px;*/
+/*}*/
+/*}*/
+
+/*@media only screen and (min-width: 900px) and (max-width: 1317px)  {*/
+/*.workProcessCard2_main_div {*/
+/*background-color: #E5E5E5;*/
+/*padding-top: 0;*/
+/*height: 450px;*/
+/*}*/
+/*}*/
+
+/*@media only screen and (min-width: 1317px) {*/
+
+/*.workProcessCard2_main_div {*/
+/*background-color: #E5E5E5;*/
+/*padding-top: 0;*/
+/*height: 370px;*/
+/*}*/
+/*}*/

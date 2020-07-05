@@ -1,0 +1,158 @@
+@media (min-width: 1281px) {
+
+    .opening-job {
+        width: 85%;
+        transform: translate(7%, 42%);
+    }
+
+    .career-title {
+        font-size: 60px;
+    }
+
+    .career-text {
+        font-size: 22px;
+    }
+
+    .job-button {
+        font-size: 22px;
+        padding: 10px 30px !important;
+    }
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .opening-job {
+        width: 85%;
+        transform: translate(7%, 42%);
+    }
+
+    .career-title {
+        font-size: 60px;
+    }
+
+    .career-text {
+        font-size: 22px;
+    }
+
+    .job-button {
+        padding: 10px 30px !important;
+    }
+
+    .job-button a {
+        font-size: 22px !important;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .opening-job {
+        width: 88%;
+        transform: translate(7%, 30%);
+    }
+
+    .career-title {
+        font-size: 50px;
+    }
+
+    .job-button {
+        padding: 10px 25px !important;
+    }
+
+    .job-button a {
+        font-size: 20px !important;
+    }
+
+    .career-text {
+        font-size: 22px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .opening-job {
+        width: 90%;
+        transform: translate(5%, 42%);
+    }
+
+    .career-title {
+        font-size: 45px;
+
+    }
+
+    .career-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .job-button {
+        padding: 10px 22px !important;
+    }
+
+    .job-button a {
+        font-size: 16px !important;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .opening-job {
+        width: 95%;
+        transform: translate(4%, 35%);
+    }
+
+    .career-title {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .career-title span {
+        padding: 0 10px;
+    }
+
+    .career-text {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .job-button {
+
+        padding: 7px 15px !important;
+    }
+
+    .job-button a {
+        font-size: 12px !important;
+    }
+
+    .career-section {
+        height: 300px;
+    }
+
+}

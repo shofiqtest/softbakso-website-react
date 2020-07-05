@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.service--h1{
+    padding-top:70px;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #000000;
+    /*textDecorationLine:'underline'*/
+}
+
+.service--headingMobile{
+
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    color: #000000;
+    /*alignItems: 'center',*/
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+}
+
+.OurServicesMobile-mainDiv{
+    background-color: #FFFFFF;
+    padding-top:20px;
+
+}
+
+.serviceDescription-divMobile{
+    padding-top:10px;
+    margin:auto;
+    width: 90%;
+}
+
+
+.service--hr{
+    height: 2px;
+    font-weight: bold;
+    border: none;
+    /* Set the hr color */
+    color: #000000; /* old IE */
+    background-color: #000000; /* Modern Browsers */
+}
+
+.serviceDescription__h3--div{
+    margin:auto;
+    width: 35%;
+}
+
+
+
+
+.one-service__div{
+    width:30%;
+    height:40%;
+    margin:1%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.one-service__divMobile{
+    margin:5%;
+}
+
+
+
+.one-service__img__div{
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+    /*bold or number*/
+
+    font-size: 2.5rem;
+    /*1 rem =16 px r= relative to em*/
+    /*1 em = 16px*/
+
+
+}
+
+.one-service__div--pHeading
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #000000;
+    display:flex;
+    justify-content:center;
+
+}
+.one-service__div--p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+    /*color:red;*/
+}
+
+.ourService__div--p{
+    font-family: 'Quicksand', sans-serif;
+    /*font-style: italic;*/
+    /*font-weight: bold;*/
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    /*display:flex;*/
+    justify-content:center;
+    /*align-items: center;*/
+    text-align: center;
+}
+
+.one-service__div--img
+{
+    display:block;
+    /*display:flex;*/
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+}
+
+
+.one-service__bottom-div--span-LearnMore
+{
+    /*display:flex;*/
+    color:#000000;
+    /*font-size: 12;*/
+    font-weight: bold;
+    justify-content:flex-start;
+
+    align-items: flex-start;
+    font-style: italic;
+    cursor:pointer;
+}
+
+
+
+.one-service__bottom-div--span-arrowForward{
+    display:flex;
+    /*color:#000000;*/
+    /*font-size: 12;*/
+    /*font-weight: bold;*/
+    justify-content:flex-end;
+
+    align-items: flex-end;
+    align-self: flex-end;
+    cursor:pointer;
+    /*font-style: italic;*/
+}
+
+.top-leftOneService {
+    flex: 50%;
+}
+
+.bottom-leftOneService {
+    flex: 50%;
+}
+
+.modal-btn{
+    margin: 18px;
+    background: #000000;
+    border: transparent;
+}
+.modal-btn:hover{
+    background: yellowgreen;
+}

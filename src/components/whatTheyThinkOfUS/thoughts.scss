@@ -1,0 +1,39 @@
+  .bubbles {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin-bottom:5px;
+
+  }
+  .bubble{
+    margin: 2px;
+    background-color:#b28c40;
+    border-radius: 1000px;
+    border-width: 2px;
+    border-color: black;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    /*opacity: 0.25;*/
+    opacity: 0.25;
+    transition: opacity 0.1s linear;
+
+    &:hover{
+      opacity: 0.65;
+      background-color:dimgrey;
+      //opacity:0.65;
+    }
+    &.active{
+      opacity: 1;
+      background-color:dimgrey;
+      //opacity: 1;
+    }
+  }
+
+
+
+
+

@@ -1,0 +1,141 @@
+ @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+ .career-section {
+     background: url('./assets/careerbg.png');
+     height: 518px;
+     background-size: cover;
+     background-position: center center;
+     position: relative;
+ }
+
+ .career-section::before {
+     content: '';
+     position: absolute;
+     background: rgba(0, 0, 0, 0.49);
+     height: 100%;
+     width: 100%;
+
+ }
+
+ .opening-job {
+     position: absolute;
+     width: 63%;
+     transform: translate(13%, 40%);
+ }
+
+ .career-text {
+     font-family: Quicksand;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 28px;
+     line-height: 35px;
+     color: #FFFFFF;
+ }
+
+ .career-title {
+     font-family: Quicksand;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 70px;
+     line-height: 87px;
+     color: #FFFFFF;
+ }
+
+ .career-title span {
+     color: #000;
+     background: #E5E5E5;
+     padding: 0 18px;
+     margin-right: 3px;
+ }
+
+ .job-button {
+     background: #C4C4C4;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 41px;
+     border: 0;     
+     padding: 10px 35px !important;
+     text-transform: capitalize;
+     letter-spacing: -1px;
+ }
+ .job-button a{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000 !important;
+    font-weight: 600;
+ }
+ .job-button.btn-primary:hover, .job-button.btn-primary:focus{
+    background: #C4C4C4 !important;
+    border-color: transparent !important;
+}
+
+/*Job details section */
+.bg-clr{
+    background: #EFEFEF !important;
+}
+.job-details{
+    background: url('../Career/assets/Rectangle.png') center center;
+    background-size: cover;
+        padding-bottom: 10vh;
+    padding-top: 20vh;
+    height: 50vh; 
+    position: relative;
+}
+.job-details::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+}
+.job-details .designation-title h1{
+       font-family: Quicksand;
+    font-size: 90px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.job-card{
+    background: #fff;
+    width: 85%;
+    margin: 0 auto;
+        transform: translate(0%, -5%);
+    z-index: 999;
+        padding: 100px 0;
+}
+
+.job-card-head{
+    border:1px solid #E0E0E0;
+    width: 70%;
+    margin: 0 auto;
+    background: #FAFAFA;
+        padding: 35px 40px;
+}
+.job-card-head ul{
+    padding: 0;
+}
+.job-card-head ul li{
+    font-family: Quicksand;
+}
+.job-card-head ul li span{
+    font-weight: bold;
+}
+
+.bold-title ul li {
+    list-style: disc !important;
+}
+.bold-title h4{
+    font-weight: 900;
+    margin: 25px 0 7px 0;
+}
+.job-card-body{
+        width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.job-card-head ul li{
+    list-style: none !important;
+}

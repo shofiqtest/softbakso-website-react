@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900&display=swap');
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.explore-jobs {
+  margin: 280px 0 50px 0;
+}
+
+.jobs-posted.bg-color {
+  background: #C4C4C4;
+  padding: 60px 45px;
+  cursor: pointer;
+}
+
+.designation {
+  margin: 22px 0;
+}
+
+.designation a {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.designation a,
+.department a,
+.location a {
+  color: #000;
+  -webkit-transition-duration: .4s;
+  -o-transition-duration: .4s;
+  transition-duration: .4s;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.designation a:hover,
+.location a:hover {
+  color: yellow;
+}
+
+.main-headline h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-headline span {
+  color: #C4C4C4;
+}
+
+@media (min-width: 1281px) {}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .explore-jobs {
+    margin: 340px 0 50px 0;
+  }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+  .jobs-posted.bg-color {
+    padding: 22px 15px;
+  }
+
+  .designation {
+    margin: 10px 0;
+  }
+
+  .designation a {
+    font-size: 15px;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .jobs-posted.bg-color {
+    padding: 20px 15px;
+  }
+
+  .designation {
+    margin: 4px 0;
+  }
+
+  .designation a {
+    font-size: 15px;
+  }
+
+
+  .main-headline h1 {
+    font-size: 22px;
+  }
+
+  .department a,
+  .location a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:400px) {
+  .designation a {
+    font-size: 9px;
+  }
+
+  .department a,
+  .location a {
+    font-size: 7px;
+  }
+  .explore-jobs {
+    margin: 255px 0 40px 0;
+}
+}

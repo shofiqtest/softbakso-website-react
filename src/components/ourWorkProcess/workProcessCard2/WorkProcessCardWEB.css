@@ -1,0 +1,84 @@
+.WorkProcessCard2TopMargin {
+    padding-top: 60px;
+    vertical-align: middle;
+    /*margin-top: 5%;*/
+    width: 44%;
+    height: 44%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    /*1st item's height is greatest*/
+}
+
+
+/*meeting-image-smaller-devices*/
+
+
+.workProcessCard2__span1--outerDiv {
+    margin-left: 40px;
+
+}
+
+/*meeting-image-smaller-devices*/
+/*NO LEFT FOR SMALLER DEVICES*/
+@media only screen and (max-width: 574px) {
+    .workProcessCard2__span1--outerDiv {
+        margin-left: 15px;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .workProcessCard2_main_div {
+        background-color: #E5E5E5;
+        padding-top: 0;
+        height: 490px;
+    }
+
+    .meeting-imageWEB {
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        /*text-align: center;*/
+        margin: auto;
+        width: 100%;
+        /*height:45%;*/
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1317px) {
+    .workProcessCard2_main_div {
+        background-color: #E5E5E5;
+        padding-top: 0;
+        height: 450px;
+    }
+
+    .meeting-imageWEB {
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        /*text-align: center;*/
+        margin: auto;
+        width: 90%;
+        /*height:45%;*/
+    }
+}
+
+@media only screen and (min-width: 1317px) {
+
+    .workProcessCard2_main_div {
+        background-color: #E5E5E5;
+        padding-top: 0;
+        height: 370px;
+    }
+
+    .meeting-imageWEB {
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        /*text-align: center;*/
+        margin: auto;
+        width: 50%;
+        /*height:45%;*/
+    }
+}

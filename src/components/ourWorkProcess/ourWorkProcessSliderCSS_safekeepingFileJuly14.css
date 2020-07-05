@@ -1,0 +1,325 @@
+<<<<<<< HEAD
+/* #region Default styles */
+/* #region TheTeamCardWeb */
+/* TheTeamCardWeb */
+.workProcess_card {
+    border: 3px #f3f3f3 solid;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s linear;
+    cursor: pointer;
+    background-color: #F7F7F7;
+    padding: 10px;
+    /*max-width: 360px;*/
+    /*min-width: 300px;*/
+    text-align: left;
+    margin: 0 auto; }
+.workProcess_card:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3; }
+.workProcess_card img {
+    max-width: calc(100%);
+    margin: 0 auto;
+    display: block; }
+.workProcess_card .index {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 0 10px; }
+.workProcess_card .price {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold; }
+.workProcess_card .workProcess_details {
+    padding-top: 15px;
+    position: relative; }
+.workProcess_card .workProcess_heading {
+    text-align: center;
+    position: relative; }
+.workProcess_card .features {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+.workProcess_card .features li {
+    padding-left: 24px;
+    margin-right: 10px;
+    display: inline-block; }
+.workProcess_card .features li span {
+    display: none; }
+
+/* #endregion */
+/* #region cards slider */
+.workProcess_cards-slider-wrapper {
+    display: flex;
+    position: absolute;
+    transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+.workProcess_cards-slider-wrapper .workProcess_card {
+    height: 161px;
+    flex: 1;
+    min-width: 20%;
+    opacity: 0.7;
+    transform: scale(1);
+    box-shadow: none;
+    background-color: #F7F7F7;
+    border-color: #F7F7F7;
+    cursor: pointer;
+    transition: opacity 300ms linear, border-color 300ms linear, background-color 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+
+/*@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 480px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 80px; } }*/
+/*@media only screen and (min-width: 481px) and (max-width: 1024px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 80px;*/
+/*max-width: 180px; } }*/
+/*@media only screen and (min-width: 1025px) and (max-width: 1300px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 200px; } }*/
+/*@media only screen and (min-width: 1300px) and (max-width: 1900px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 250px; } }*/
+/*@media only screen and (min-width: 1900px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 500px; } }*/
+
+.workProcess_cards-slider-wrapper .workProcess_card .workProcess_details {
+    opacity: 0.9;
+    transition: opacity 150ms linear; }
+
+.workProcess_cards-slider.active-slide-0 #card-0 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+}
+.workProcess_cards-slider.active-slide-0 #card-0 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-1 #card-1 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-1 #card-1 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-2 #card-2 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-2 #card-2 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-3 #card-3 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-3 #card-3 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-4 #card-4 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-4 #card-4 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-5 #card-5 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-5 #card-5 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-6 #card-6 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-6 #card-6 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_col {
+    margin-top: 40px;
+    height: 160px;
+    position: relative; }
+
+.workProcess_cards-slider {
+    position: relative;
+    /*max-width: 349px;*/
+    left: 60px; }
+
+/* #endregion */
+.socialIconsStyle {
+    margin-left: 7px; }
+=======
+/* #region Default styles */
+/* #region TheTeamCardWeb */
+/* TheTeamCardWeb */
+.workProcess_card {
+    border: 3px #f3f3f3 solid;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s linear;
+    cursor: pointer;
+    background-color: #F7F7F7;
+    padding: 10px;
+    /*max-width: 360px;*/
+    /*min-width: 300px;*/
+    text-align: left;
+    margin: 0 auto; }
+.workProcess_card:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3; }
+.workProcess_card img {
+    max-width: calc(100%);
+    margin: 0 auto;
+    display: block; }
+.workProcess_card .index {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 0 10px; }
+.workProcess_card .price {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold; }
+.workProcess_card .workProcess_details {
+    padding-top: 15px;
+    position: relative; }
+.workProcess_card .workProcess_heading {
+    text-align: center;
+    position: relative; }
+.workProcess_card .features {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+.workProcess_card .features li {
+    padding-left: 24px;
+    margin-right: 10px;
+    display: inline-block; }
+.workProcess_card .features li span {
+    display: none; }
+
+/* #endregion */
+/* #region cards slider */
+.workProcess_cards-slider-wrapper {
+    display: flex;
+    position: absolute;
+    transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+.workProcess_cards-slider-wrapper .workProcess_card {
+    height: 161px;
+    flex: 1;
+    min-width: 20%;
+    opacity: 0.7;
+    transform: scale(1);
+    box-shadow: none;
+    background-color: #F7F7F7;
+    border-color: #F7F7F7;
+    cursor: pointer;
+    transition: opacity 300ms linear, border-color 300ms linear, background-color 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); }
+
+/*@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 480px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 80px; } }*/
+/*@media only screen and (min-width: 481px) and (max-width: 1024px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 80px;*/
+/*max-width: 180px; } }*/
+/*@media only screen and (min-width: 1025px) and (max-width: 1300px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 200px; } }*/
+/*@media only screen and (min-width: 1300px) and (max-width: 1900px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 250px; } }*/
+/*@media only screen and (min-width: 1900px) {*/
+/*.workProcess_cards-slider-wrapper .workProcess_card {*/
+/*min-width: 500px; } }*/
+
+.workProcess_cards-slider-wrapper .workProcess_card .workProcess_details {
+    opacity: 0.9;
+    transition: opacity 150ms linear; }
+
+.workProcess_cards-slider.active-slide-0 #card-0 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+}
+.workProcess_cards-slider.active-slide-0 #card-0 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-1 #card-1 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-1 #card-1 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-2 #card-2 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-2 #card-2 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-3 #card-3 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-3 #card-3 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-4 #card-4 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-4 #card-4 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-5 #card-5 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-5 #card-5 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_cards-slider.active-slide-6 #card-6 {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5; }
+.workProcess_cards-slider.active-slide-6 #card-6 .workProcess_details {
+    opacity: 1; }
+
+.workProcess_col {
+    margin-top: 40px;
+    height: 160px;
+    position: relative; }
+
+.workProcess_cards-slider {
+    position: relative;
+    /*max-width: 349px;*/
+    left: 60px; }
+
+/* #endregion */
+.socialIconsStyle {
+    margin-left: 7px; }
+>>>>>>> d998f109d5068a3c8af387fdb474faa245912f2d

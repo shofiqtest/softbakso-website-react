@@ -1,0 +1,765 @@
+<<<<<<< HEAD
+.slidecontainer {
+    width: 58%;
+    /* Width of the outside container */
+    margin-left:4%;
+    /*margin left between the slider and the image in the left*/
+}
+
+@media only screen and (max-width: 600px) {
+    .slidecontainer {
+        width: 58%;
+        /* Width of the outside container */
+        margin-left: 8%;
+        /*margin left between the slider and the image in the left*/
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider {
+        -webkit-appearance: none;  /* Override default CSS styles */
+        /*appearance: none;*/
+        /*width: 100%;*/
+        /* Full-width */
+        height: 15px; /* Specified height */
+        /*background: #FCCE00; !* Grey background *!*/
+        /*background: #FFFFFF;*/
+        border-style: solid;
+        border-color: black;
+        border-width: thin;
+        /*background: ;*/
+        outline: none; /* Remove outline */
+        opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+        -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+        transition: opacity .2s;
+        background: transparent; /* Otherwise white in Chrome */
+        /*text-align: center;*/
+    }
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        width: 0; /* Set a specific slider handle width */
+        /*made widht: 0px from 25px*/
+        height: 15px; /* Slider handle height */
+        background: #FCCE00; /* Green background */
+        cursor: pointer; /* Cursor on hover */
+    }
+}
+
+
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    /*appearance: none;*/
+    /*width: 100%;*/
+    /* Full-width */
+    height: 15px; /* Specified height */
+    /*background: #FCCE00; !* Grey background *!*/
+    /*background: #FFFFFF;*/
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    /*background: ;*/
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    background: transparent; /* Otherwise white in Chrome */
+    /*text-align: center;*/
+
+
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 0; /* Set a specific slider handle width */
+    /*made widht: 0px from 25px*/
+    height: 15px; /* Slider handle height */
+    background: #FCCE00; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
+/* IE or edge*/
+
+
+
+/*input[type="range"]::-ms-fill-lower {*/
+
+    /*!*background-color: #43e5f7;*!*/
+    /*background: #FCCE00;*/
+    /*height: 25px;*/
+    /*!*border-style: solid;*!*/
+    /*outline: black; !* Remove outline *!*/
+    /*!*border-style: solid;*!*/
+    /*!*border-color: black;*!*/
+    /*!*border-width: thin;*!*/
+    /*!*border-width: 3px;*!*/
+
+/*}*/
+/*input[type="range"]::-ms-fill-upper {*/
+
+    /*!*background: #FFFFFF;*!*/
+    /*!*width: 10px; !* Set a specific slider handle width *!*!*/
+    /*height: 25px;*/
+    /*!*border-style: solid;*!*/
+
+    /*!*border-style: solid;*!*/
+    /*!*border-color: black;*!*/
+    /*!*border-width: thin;*!*/
+    /*!*border-width: 3px;*!*/
+
+
+    /*border-color: black;*/
+    /*border-width: thin;*/
+    /*!*background: ;*!*/
+    /*outline: none;*/
+    /*!*background: transparent;*!*/
+    /*!*border-color: transparent;*!*/
+    /*!*color: #000000;*!*/
+    /*!*background-color: #9a905d;*!*/
+/*}*/
+
+
+/*input[type=range]::-ms-track {*/
+    /*width: 100%;*/
+    /*cursor: pointer;*/
+
+    /*!* Hides the slider so custom styles can be added *!*/
+    /*background: transparent;*/
+    /*border-color: transparent;*/
+    /*color: transparent;*/
+/*}*/
+
+input[type=range]::-ms-thumb {
+
+    height: 0;
+    width: 0;
+    /*border-radius: 3px;*/
+    background: #FFFFFF;
+    background: none;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+input[type=range]::-ms-track {
+    /*height: 0;*/
+    /*width: 0;*/
+    /*!*border-radius: 3px;*!*/
+    /*background: #FFFFFF;*/
+    /*background: none;*/
+    /*cursor: pointer;*/
+    /*border-color: transparent;*/
+    background: #FFFFFF;
+    /*width: 10px; !* Set a specific slider handle width *!*/
+    /*height: 25px;*/
+}
+
+
+
+/** FF*/
+/*::-moz-range-thumb represents the indicator that slides in the groove.*/
+.slider::-moz-range-thumb {
+    width: 0;
+    height: 15px;
+    background: #FFFFFF;
+    background: none;
+    border-color: transparent;
+    cursor: pointer; /* Cursor on hover */
+}
+
+input[type="range"]::-moz-range-progress {
+    /*background-color: #FCCE00;*/
+    background: #FCCE00;
+    height: 15px;
+    /*overflow: hidden;*/
+}
+
+/*::-moz-range-track represents the groove in which the thumb slides.*/
+input[type="range"]::-moz-range-track {
+    background: #FFFFFF;
+    /*width: 10px; !* Set a specific slider handle width *!*/
+    height: 15px;
+    /*overflow: hidden;*/
+    /*background-color: #9a905d;*/
+}
+
+/*https://stackoverflow.com/questions/18389224/how-to-style-html5-range-input-to-have-different-color-before-and-after-slider */
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+        overflow: hidden;
+        /*width: 80px;*/
+        -webkit-appearance: none;
+        /*background-color: #9a905d;*/
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        /*height: 10px;*/
+        -webkit-appearance: none;
+        color: #13bba4;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        /*width: 10px;*/
+        -webkit-appearance: none;
+        /*height: 10px;*/
+        cursor: ew-resize;
+        /*background: #434343;*/
+        /*background: #FCCE00;*/
+        /*width: 100%; !* Full-width *!*/
+        /*height: 25px; !* Specified height *!*/
+        box-shadow: -1000px 0 0 1000px #FCCE00;
+        /*box-shadow: -90px 0 0 80px #FCCE00;*/
+    }
+
+}
+
+.skillsWeHave--h1{
+    color:#000000;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skillsWeHave--parent {
+    justify-content: space-around;
+    white-space: nowrap;
+    /*justify-content: center;*/
+    /*flex: 0.8;*/
+    align-self: center;
+    /*justify-content: space-between;*/
+    display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    align-items: center; }
+
+@media only screen and (max-width: 600px) {
+    .skillsWeHave--parent {
+        /*justify-content: space-around;*/
+        justify-content: flex-start;
+        white-space: nowrap;
+        /*flex: 0.8;*/
+        align-self: center;
+        /*justify-content: space-between;*/
+        display: flex;
+        overflow: hidden;
+        margin: 1em 0;
+        align-items: center; }
+}
+
+.skillsWeHave__left__div {
+    /*flex-grow: 2;*/
+    align-self: flex-start;
+    padding: 1em;
+    margin-right:12vw;
+    /*align-self: flex-start;*/
+}
+
+.skillsWeHave__right__div {
+    justify-content: right;
+    justify-self: right;
+    padding: 1em;
+    align-self: flex-start;
+}
+
+
+.oneEvenSkillsWeHave__left--span{
+    white-space:nowrap;
+    justify-self: left;
+    align-items: center;
+    align-self: center;
+    padding:10px;
+}
+.oneOddSkillsWeHave__Right--span {
+    padding:10px;
+    /*margin: 10%;*/
+    /*text-align: justify;*/
+    /*align-items: center;*/
+    /*align-self: center;*/
+    /*align-items: flex-end;*/
+    /*align-self:flex-end;*/ }
+
+.professionalTechnicalSkill{
+    color: #000000;
+    font-size: x-large;
+    /*font-size:25;*/
+    /*font-weight: bold;*/
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.Our-services{
+    /*background-color: #282c34;*/
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.oneSkill__outer--div{
+    display: flex;
+    width:200%
+}
+
+.oneSkill--img{
+    width:5%;
+    height:10%;
+    margin-top:-6px;
+}
+
+.oneSkill__odd--img{
+    width:5%;
+    height:10%;
+    margin-top:-6px;
+}
+
+@media only screen and
+(min-width: 300px) and
+(max-width: 690px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill--img{
+        width:10%;
+        /*height:10%;*/
+        margin-top:-2px;
+    }
+
+}
+
+/*@media only screen and (max-width: 400px){*/
+
+/*!*max-width: 600px to 690px*!*/
+/*.oneSkill__outer--div{*/
+/*display: flex;*/
+/*width:120%;*/
+/*}*/
+/*}*/
+
+
+@media only screen and
+(min-width: 300px) and
+(max-width: 690px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill__odd--img{
+        width:10%;
+        /*height:10%;*/
+        margin-top:-2px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 690px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill__outer--div{
+        display: flex;
+        width:140%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill__outer--div{
+        display: flex;
+        width:120%;
+    }
+}
+
+=======
+.slidecontainer {
+    width: 58%;
+    /* Width of the outside container */
+    margin-left:4%;
+    /*margin left between the slider and the image in the left*/
+}
+
+@media only screen and (max-width: 600px) {
+    .slidecontainer {
+        width: 58%;
+        /* Width of the outside container */
+        margin-left: 8%;
+        /*margin left between the slider and the image in the left*/
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider {
+        -webkit-appearance: none;  /* Override default CSS styles */
+        /*appearance: none;*/
+        /*width: 100%;*/
+        /* Full-width */
+        height: 15px; /* Specified height */
+        /*background: #FCCE00; !* Grey background *!*/
+        /*background: #FFFFFF;*/
+        border-style: solid;
+        border-color: black;
+        border-width: thin;
+        /*background: ;*/
+        outline: none; /* Remove outline */
+        opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+        -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+        transition: opacity .2s;
+        background: transparent; /* Otherwise white in Chrome */
+        /*text-align: center;*/
+    }
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        width: 0; /* Set a specific slider handle width */
+        /*made widht: 0px from 25px*/
+        height: 15px; /* Slider handle height */
+        background: #FCCE00; /* Green background */
+        cursor: pointer; /* Cursor on hover */
+    }
+}
+
+
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    /*appearance: none;*/
+    /*width: 100%;*/
+    /* Full-width */
+    height: 15px; /* Specified height */
+    /*background: #FCCE00; !* Grey background *!*/
+    /*background: #FFFFFF;*/
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    /*background: ;*/
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    background: transparent; /* Otherwise white in Chrome */
+    /*text-align: center;*/
+
+
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 0; /* Set a specific slider handle width */
+    /*made widht: 0px from 25px*/
+    height: 15px; /* Slider handle height */
+    background: #FCCE00; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
+/* IE or edge*/
+
+
+
+/*input[type="range"]::-ms-fill-lower {*/
+
+    /*!*background-color: #43e5f7;*!*/
+    /*background: #FCCE00;*/
+    /*height: 25px;*/
+    /*!*border-style: solid;*!*/
+    /*outline: black; !* Remove outline *!*/
+    /*!*border-style: solid;*!*/
+    /*!*border-color: black;*!*/
+    /*!*border-width: thin;*!*/
+    /*!*border-width: 3px;*!*/
+
+/*}*/
+/*input[type="range"]::-ms-fill-upper {*/
+
+    /*!*background: #FFFFFF;*!*/
+    /*!*width: 10px; !* Set a specific slider handle width *!*!*/
+    /*height: 25px;*/
+    /*!*border-style: solid;*!*/
+
+    /*!*border-style: solid;*!*/
+    /*!*border-color: black;*!*/
+    /*!*border-width: thin;*!*/
+    /*!*border-width: 3px;*!*/
+
+
+    /*border-color: black;*/
+    /*border-width: thin;*/
+    /*!*background: ;*!*/
+    /*outline: none;*/
+    /*!*background: transparent;*!*/
+    /*!*border-color: transparent;*!*/
+    /*!*color: #000000;*!*/
+    /*!*background-color: #9a905d;*!*/
+/*}*/
+
+
+/*input[type=range]::-ms-track {*/
+    /*width: 100%;*/
+    /*cursor: pointer;*/
+
+    /*!* Hides the slider so custom styles can be added *!*/
+    /*background: transparent;*/
+    /*border-color: transparent;*/
+    /*color: transparent;*/
+/*}*/
+
+input[type=range]::-ms-thumb {
+
+    height: 0;
+    width: 0;
+    /*border-radius: 3px;*/
+    background: #FFFFFF;
+    background: none;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+input[type=range]::-ms-track {
+    /*height: 0;*/
+    /*width: 0;*/
+    /*!*border-radius: 3px;*!*/
+    /*background: #FFFFFF;*/
+    /*background: none;*/
+    /*cursor: pointer;*/
+    /*border-color: transparent;*/
+    background: #FFFFFF;
+    /*width: 10px; !* Set a specific slider handle width *!*/
+    /*height: 25px;*/
+}
+
+
+
+/** FF*/
+/*::-moz-range-thumb represents the indicator that slides in the groove.*/
+.slider::-moz-range-thumb {
+    width: 0;
+    height: 15px;
+    background: #FFFFFF;
+    background: none;
+    border-color: transparent;
+    cursor: pointer; /* Cursor on hover */
+}
+
+input[type="range"]::-moz-range-progress {
+    /*background-color: #FCCE00;*/
+    background: #FCCE00;
+    height: 15px;
+    /*overflow: hidden;*/
+}
+
+/*::-moz-range-track represents the groove in which the thumb slides.*/
+input[type="range"]::-moz-range-track {
+    background: #FFFFFF;
+    /*width: 10px; !* Set a specific slider handle width *!*/
+    height: 15px;
+    /*overflow: hidden;*/
+    /*background-color: #9a905d;*/
+}
+
+/*https://stackoverflow.com/questions/18389224/how-to-style-html5-range-input-to-have-different-color-before-and-after-slider */
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+        overflow: hidden;
+        /*width: 80px;*/
+        -webkit-appearance: none;
+        /*background-color: #9a905d;*/
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        /*height: 10px;*/
+        -webkit-appearance: none;
+        color: #13bba4;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        /*width: 10px;*/
+        -webkit-appearance: none;
+        /*height: 10px;*/
+        cursor: ew-resize;
+        /*background: #434343;*/
+        /*background: #FCCE00;*/
+        /*width: 100%; !* Full-width *!*/
+        /*height: 25px; !* Specified height *!*/
+        box-shadow: -1000px 0 0 1000px #FCCE00;
+        /*box-shadow: -90px 0 0 80px #FCCE00;*/
+    }
+
+}
+
+.skillsWeHave--h1{
+    color:#000000;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skillsWeHave--parent {
+    justify-content: space-around;
+    white-space: nowrap;
+    /*justify-content: center;*/
+    /*flex: 0.8;*/
+    align-self: center;
+    /*justify-content: space-between;*/
+    display: flex;
+    overflow: hidden;
+    margin: 1em 0;
+    align-items: center; }
+
+@media only screen and (max-width: 600px) {
+    .skillsWeHave--parent {
+        /*justify-content: space-around;*/
+        justify-content: flex-start;
+        white-space: nowrap;
+        /*flex: 0.8;*/
+        align-self: center;
+        /*justify-content: space-between;*/
+        display: flex;
+        overflow: hidden;
+        margin: 1em 0;
+        align-items: center; }
+}
+
+.skillsWeHave__left__div {
+    /*flex-grow: 2;*/
+    align-self: flex-start;
+    padding: 1em;
+    margin-right:12vw;
+    /*align-self: flex-start;*/
+}
+
+.skillsWeHave__right__div {
+    justify-content: right;
+    justify-self: right;
+    padding: 1em;
+    align-self: flex-start;
+}
+
+
+.oneEvenSkillsWeHave__left--span{
+    white-space:nowrap;
+    justify-self: left;
+    align-items: center;
+    align-self: center;
+    padding:10px;
+}
+.oneOddSkillsWeHave__Right--span {
+    padding:10px;
+    /*margin: 10%;*/
+    /*text-align: justify;*/
+    /*align-items: center;*/
+    /*align-self: center;*/
+    /*align-items: flex-end;*/
+    /*align-self:flex-end;*/ }
+
+.professionalTechnicalSkill{
+    color: #000000;
+    font-size: x-large;
+    /*font-size:25;*/
+    /*font-weight: bold;*/
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.Our-services{
+    /*background-color: #282c34;*/
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.oneSkill__outer--div{
+    display: flex;
+    width:200%
+}
+
+.oneSkill--img{
+    width:5%;
+    height:10%;
+    margin-top:-6px;
+}
+
+.oneSkill__odd--img{
+    width:5%;
+    height:10%;
+    margin-top:-6px;
+}
+
+@media only screen and
+(min-width: 300px) and
+(max-width: 690px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill--img{
+        width:10%;
+        /*height:10%;*/
+        margin-top:-2px;
+    }
+
+}
+
+/*@media only screen and (max-width: 400px){*/
+
+/*!*max-width: 600px to 690px*!*/
+/*.oneSkill__outer--div{*/
+/*display: flex;*/
+/*width:120%;*/
+/*}*/
+/*}*/
+
+
+@media only screen and
+(min-width: 300px) and
+(max-width: 690px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill__odd--img{
+        width:10%;
+        /*height:10%;*/
+        margin-top:-2px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 690px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill__outer--div{
+        display: flex;
+        width:140%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    /*max-width: 600px to 690px*/
+    .oneSkill__outer--div{
+        display: flex;
+        width:120%;
+    }
+}
+
+>>>>>>> d998f109d5068a3c8af387fdb474faa245912f2d

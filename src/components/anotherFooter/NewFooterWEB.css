@@ -1,0 +1,167 @@
+<<<<<<< HEAD
+/*.parentDiv{*/
+    /*background-color: gray;*/
+/*}*/
+
+.NewFooter-main-div-WEB{
+    background-image:  url('./../../assets/images/NewFooter/Asset2@4x.png');
+
+    /*background-size:contain;*/
+    /*background-image: url(logo.png), url(ocean.png);*/
+    /*background-position: bottom right, 100% center;*/
+    /*background-origin: border-box, content-box;*/
+    /*background-repeat: no-repeat, repeat;*/
+
+
+    /**/
+    /*background-color: gray;*/
+    /*background-blend-mode: luminosity;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+
+
+    /*mix-blend-mode: multiply;*/
+    background-position:  100% center;
+    /*background-origin:  content-box;*/
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 296px;
+    /*left: 0px;*/
+    /*top: 1730px;*/
+    /*background: url(Softbakso (10).jpg), #FFFFFF;*/
+    /*mix-blend-mode: luminosity;*/
+    mix-blend-mode: hard-light;
+    opacity: 1;
+
+}
+
+
+.logo-In-the-new-footer{
+    background-image: url('./../../assets/images/NewFooter/footerlogo.png');
+    background-position:  top left;
+    background-repeat:  no-repeat;
+    background-origin:  content-box;
+    background-size: cover;
+
+}
+
+.axx{
+    background-image: url('./../../assets/images/NewFooter/Asset2@4x.png');
+    background-position:center;
+    background-repeat:  no-repeat;
+    /*background-attachment: fixed;*/
+    /*background-size:contain;*/
+
+    /*background-attachment:*/
+            /*center center*/
+
+    height:400px;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+.NewFooter-logo-span-WEB{
+    /*margin-top: 40px;*/
+}
+
+.NewFoote_SoftBaksoLogo_Mobile_Div{
+    display: block;
+
+    margin: auto;
+    /*padding-left: 20px;*/
+}
+
+.SoftBakso_NewLogoImage_WEB{
+    /*display:block;*/
+    /*margin: auto;*/
+    padding-left:20px;
+    padding-top:20px;
+    /*margin-left: 100px;*/
+}
+
+=======
+/*.parentDiv{*/
+    /*background-color: gray;*/
+/*}*/
+
+.NewFooter-main-div-WEB{
+    background-image:  url('./../../assets/images/NewFooter/Asset2@4x.png');
+
+    /*background-size:contain;*/
+    /*background-image: url(logo.png), url(ocean.png);*/
+    /*background-position: bottom right, 100% center;*/
+    /*background-origin: border-box, content-box;*/
+    /*background-repeat: no-repeat, repeat;*/
+
+
+    /**/
+    /*background-color: gray;*/
+    /*background-blend-mode: luminosity;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+
+
+    /*mix-blend-mode: multiply;*/
+    background-position:  100% center;
+    /*background-origin:  content-box;*/
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 296px;
+    /*left: 0px;*/
+    /*top: 1730px;*/
+    /*background: url(Softbakso (10).jpg), #FFFFFF;*/
+    /*mix-blend-mode: luminosity;*/
+    mix-blend-mode: hard-light;
+    opacity: 1;
+
+}
+
+
+.logo-In-the-new-footer{
+    background-image: url('./../../assets/images/NewFooter/footerlogo.png');
+    background-position:  top left;
+    background-repeat:  no-repeat;
+    background-origin:  content-box;
+    background-size: cover;
+
+}
+
+.axx{
+    background-image: url('./../../assets/images/NewFooter/Asset2@4x.png');
+    background-position:center;
+    background-repeat:  no-repeat;
+    /*background-attachment: fixed;*/
+    /*background-size:contain;*/
+
+    /*background-attachment:*/
+            /*center center*/
+
+    height:400px;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+.NewFooter-logo-span-WEB{
+    /*margin-top: 40px;*/
+}
+
+.NewFoote_SoftBaksoLogo_Mobile_Div{
+    display: block;
+
+    margin: auto;
+    /*padding-left: 20px;*/
+}
+
+.SoftBakso_NewLogoImage_WEB{
+    /*display:block;*/
+    /*margin: auto;*/
+    padding-left:20px;
+    padding-top:20px;
+    /*margin-left: 100px;*/
+}
+
+>>>>>>> d998f109d5068a3c8af387fdb474faa245912f2d

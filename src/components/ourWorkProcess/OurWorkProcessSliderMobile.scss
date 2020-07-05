@@ -1,0 +1,409 @@
+<<<<<<< HEAD
+/* #region Default styles */
+/* #region TheTeamCardWeb */
+/* TheTeamCardWeb */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+.App--WorkProcessHorizontalScrollarMobile{
+  text-align: center;
+  position: relative;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
+
+.workProcess_cardMobile {
+  //border: 3px #f3f3f3 solid;
+  //box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  //transition: all 0.3s linear;
+  cursor: pointer;
+  //background-color: #f3f3f3;
+  //background-color: #F7F7F7; changed on 26th july 2019.
+  background-color: #FFFFFF;
+
+  padding: 10px;
+  //max-width: 220px;
+  //max-width: 360px;
+  //min-width: 300px;
+  text-align: left;
+  margin: 0 auto;
+  @media only screen and (max-width: 600px) {
+    /*i used chrome and 574 a good px size on 14th july 2019*/
+    //.workProcess_card  {
+    //border: 3px #f3f3f3 solid;
+    //box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    //transition: all 0.3s linear;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    //border-color: #FFFFFF;
+    padding: 0;
+    /*margin-left:-10px;*/
+    /*max-width: 360px;*/
+    /*min-width: 300px;*/
+    text-align: left;
+    /*margin: 0 auto;*/
+    //}
+  }
+
+  &:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+  img {
+
+
+    //max-width: calc(100%);
+    padding-top: 15px;
+    max-width: calc(50%);
+    //max-width: calc(20%);
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 6px;
+
+    @media only screen and (min-width: 600px) and (max-width: 900px) {
+      //max-width: calc(100%);
+      max-width: calc(40%);
+      margin: 0 auto;
+      display: block;
+    }
+
+    @media only screen and (min-width: 900px) and (max-width: 1200px) {
+      //max-width: calc(100%);
+      max-width: calc(45%);
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+
+
+
+
+
+  .workProcess_details {
+    //padding-top:15px;
+    position: relative;
+  }
+  .workProcess_detailsMobile{
+    //padding-top:15px;
+  position: relative;
+
+}
+  .workProcess_headingMobile{
+    text-align: center;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+  }
+
+  /* paragraph style (font size)
+for heading for smaller devices */
+  @media only screen and (max-width: 481px) {
+    .workProcess_headingMobile {
+      font-size: 9px;
+      line-height: 10px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+.workProcess_cards-slider-wrapperMobile{
+  display: flex;
+  //justify-content: space-around;
+  position: absolute;
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  .workProcess_cardMobile { // this workProcess_card is responsible for single cards all of them not only the active one.
+    height: 161px;
+    flex: 1;
+    //min-width: 20%;
+    opacity: 0.7;
+
+    transform: scale(0.8);
+    box-shadow: none;
+
+
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    transition: opacity 300ms linear, border-color 300ms linear, background-color 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  }
+  @media only screen and (max-width: 640px) {
+    .workProcess_cardMobile {
+      height: 100px;
+      //changed to height 100px again on 28th july 2019
+      //height: 75px;
+      flex: 1;
+      /*min-width: 20%;*/
+      opacity: 0.7;
+      transform: scale(0.8);
+      box-shadow: none;
+      background-color: #FFFFFF;
+      border-color: #FFFFFF;
+      transition: opacity 300ms linear, border-color 300ms linear,
+      background-color 300ms linear,
+      transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+  }
+}
+
+
+$i: 0;
+@for $i from 0 through 6 { // only 5 is required. in the requrement project case.
+  .workProcess_cards-sliderMobile.active-slideMobile-#{$i} #card-#{$i} {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+
+    .workProcess_detailsMobile {
+      opacity: 1;
+    }
+  }
+}
+
+
+  .workProcess_colMobile {
+    /*height: 99px; */
+    /*from 99px to 59 px on jly 26 2019.*/
+    //height: 59px;
+    height: 99px;
+    position: relative;
+  }
+
+
+
+  /*FOR SMALLER DEVICES THE .workProcess_col is the outermost
+  div should be smaller.*/
+
+  //@media only screen and (max-width: 640px) {
+  //  .workProcess_col {
+  //    height: 99px;
+  //    position: relative;
+  //  }
+  //}
+
+
+
+.workProcess_cards-sliderMobile{
+  left: 60px;
+}
+
+
+=======
+/* #region Default styles */
+/* #region TheTeamCardWeb */
+/* TheTeamCardWeb */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+.App--WorkProcessHorizontalScrollarMobile{
+  text-align: center;
+  position: relative;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+}
+
+
+.workProcess_cardMobile {
+  //border: 3px #f3f3f3 solid;
+  //box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  //transition: all 0.3s linear;
+  cursor: pointer;
+  //background-color: #f3f3f3;
+  //background-color: #F7F7F7; changed on 26th july 2019.
+  background-color: #FFFFFF;
+
+  padding: 10px;
+  //max-width: 220px;
+  //max-width: 360px;
+  //min-width: 300px;
+  text-align: left;
+  margin: 0 auto;
+  @media only screen and (max-width: 600px) {
+    /*i used chrome and 574 a good px size on 14th july 2019*/
+    //.workProcess_card  {
+    //border: 3px #f3f3f3 solid;
+    //box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    //transition: all 0.3s linear;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    //border-color: #FFFFFF;
+    padding: 0;
+    /*margin-left:-10px;*/
+    /*max-width: 360px;*/
+    /*min-width: 300px;*/
+    text-align: left;
+    /*margin: 0 auto;*/
+    //}
+  }
+
+  &:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+  img {
+
+
+    //max-width: calc(100%);
+    padding-top: 15px;
+    max-width: calc(50%);
+    //max-width: calc(20%);
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 6px;
+
+    @media only screen and (min-width: 600px) and (max-width: 900px) {
+      //max-width: calc(100%);
+      max-width: calc(40%);
+      margin: 0 auto;
+      display: block;
+    }
+
+    @media only screen and (min-width: 900px) and (max-width: 1200px) {
+      //max-width: calc(100%);
+      max-width: calc(45%);
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+
+
+
+
+
+  .workProcess_details {
+    //padding-top:15px;
+    position: relative;
+  }
+  .workProcess_detailsMobile{
+    //padding-top:15px;
+  position: relative;
+
+}
+  .workProcess_headingMobile{
+    text-align: center;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+  }
+
+  /* paragraph style (font size)
+for heading for smaller devices */
+  @media only screen and (max-width: 481px) {
+    .workProcess_headingMobile {
+      font-size: 9px;
+      line-height: 10px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+.workProcess_cards-slider-wrapperMobile{
+  display: flex;
+  //justify-content: space-around;
+  position: absolute;
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  .workProcess_cardMobile { // this workProcess_card is responsible for single cards all of them not only the active one.
+    height: 161px;
+    flex: 1;
+    //min-width: 20%;
+    opacity: 0.7;
+
+    transform: scale(0.8);
+    box-shadow: none;
+
+
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    transition: opacity 300ms linear, border-color 300ms linear, background-color 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  }
+  @media only screen and (max-width: 640px) {
+    .workProcess_cardMobile {
+      height: 100px;
+      //changed to height 100px again on 28th july 2019
+      //height: 75px;
+      flex: 1;
+      /*min-width: 20%;*/
+      opacity: 0.7;
+      transform: scale(0.8);
+      box-shadow: none;
+      background-color: #FFFFFF;
+      border-color: #FFFFFF;
+      transition: opacity 300ms linear, border-color 300ms linear,
+      background-color 300ms linear,
+      transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+  }
+}
+
+
+$i: 0;
+@for $i from 0 through 6 { // only 5 is required. in the requrement project case.
+  .workProcess_cards-sliderMobile.active-slideMobile-#{$i} #card-#{$i} {
+    opacity: 1;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    border-color: #E5E5E5;
+
+    .workProcess_detailsMobile {
+      opacity: 1;
+    }
+  }
+}
+
+
+  .workProcess_colMobile {
+    /*height: 99px; */
+    /*from 99px to 59 px on jly 26 2019.*/
+    //height: 59px;
+    height: 99px;
+    position: relative;
+  }
+
+
+
+  /*FOR SMALLER DEVICES THE .workProcess_col is the outermost
+  div should be smaller.*/
+
+  //@media only screen and (max-width: 640px) {
+  //  .workProcess_col {
+  //    height: 99px;
+  //    position: relative;
+  //  }
+  //}
+
+
+
+.workProcess_cards-sliderMobile{
+  left: 60px;
+}
+
+
+>>>>>>> d998f109d5068a3c8af387fdb474faa245912f2d

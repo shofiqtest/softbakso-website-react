@@ -1,0 +1,107 @@
+@media (min-width: 1281px) {}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .job-details .designation-title h1 {
+        font-size: 70px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .apply-now-btn a {
+        font-size: 9px;
+    }
+
+    .job-card-head {
+        width: 95%;
+    }
+
+    .job-card-body {
+        width: 93%;
+    }
+
+    .job-details .designation-title h1 {
+        font-size: 75px;
+    }
+
+    .job-card {
+        width: 90%;
+        padding: 50px 0;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .job-details .designation-title h1 {
+        font-size: 45px;
+    }
+
+    .apply-now-btn a {
+        font-size: 9px;
+    }
+
+    .job-card-head {
+        width: 95%;
+    }
+
+    .job-card-body {
+        width: 93%;
+    }
+
+    .job-card {
+        width: 90%;
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .job-card {
+        transform: translate(0%, -3%);
+    }
+
+    .job-card-head {
+        padding: 30px 20px;
+    }
+
+    .apply-now-btn a {
+        font-size: 5px;
+        padding: 5px 6px !important;
+    }
+
+    .job-details .designation-title h1 {
+        font-size: 28px;
+    }
+    .bold-title ul li, .bold-title p {
+        font-size: 12px;
+    }
+
+}

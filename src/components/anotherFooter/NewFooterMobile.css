@@ -1,0 +1,113 @@
+<<<<<<< HEAD
+.NewFooter-main-div-mobile{
+    background-image:  url('./../../assets/images/NewFooter/Asset2@4x.png');
+    background-position:  100% center;
+    background-origin:  content-box;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    /*background-image: url(logo.png), url(ocean.png);*/
+    /*background-position: bottom right, 100% center;*/
+    /*background-origin: border-box, content-box;*/
+    /*background-repeat: no-repeat, repeat;*/
+
+
+    /**/
+    /*background-color: gray;*/
+    /*background-blend-mode: luminosity;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+
+
+    height: 142px;
+    /*left: 0px;*/
+    /*top: 1730px;*/
+    /*background: url(Softbakso (10).jpg), #FFFFFF;*/
+    /*mix-blend-mode: luminosity;*/
+    mix-blend-mode: hard-light;
+    opacity: 1;
+    /*mix-blend-mode: multiply;*/
+}
+.logo-In-the-new-footer{
+    background-image: url('./../../assets/images/NewFooter/footerlogo.png');
+    background-position:  top left;
+    background-repeat:  no-repeat;
+    background-origin:  content-box;
+    background-size: cover;
+
+}
+
+.NewFooter-logo-span-Mobile{
+    /*margin-top: 40px;*/
+}
+
+.NewFoote_SoftBaksoLogo_Mobile_Div{
+    display: block;
+
+    margin: auto;
+    /*padding-left: 20px;*/
+}
+
+.SoftBakso_NewLogoImage_Mobile{
+    /*display:block;*/
+    margin: auto;
+    padding-left:10px;
+    padding-top:10px;
+    /*margin-left: 100px;*/
+}
+=======
+.NewFooter-main-div-mobile{
+    background-image:  url('./../../assets/images/NewFooter/Asset2@4x.png');
+    background-position:  100% center;
+    background-origin:  content-box;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    /*background-image: url(logo.png), url(ocean.png);*/
+    /*background-position: bottom right, 100% center;*/
+    /*background-origin: border-box, content-box;*/
+    /*background-repeat: no-repeat, repeat;*/
+
+
+    /**/
+    /*background-color: gray;*/
+    /*background-blend-mode: luminosity;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+
+
+    height: 142px;
+    /*left: 0px;*/
+    /*top: 1730px;*/
+    /*background: url(Softbakso (10).jpg), #FFFFFF;*/
+    /*mix-blend-mode: luminosity;*/
+    mix-blend-mode: hard-light;
+    opacity: 1;
+    /*mix-blend-mode: multiply;*/
+}
+.logo-In-the-new-footer{
+    background-image: url('./../../assets/images/NewFooter/footerlogo.png');
+    background-position:  top left;
+    background-repeat:  no-repeat;
+    background-origin:  content-box;
+    background-size: cover;
+
+}
+
+.NewFooter-logo-span-Mobile{
+    /*margin-top: 40px;*/
+}
+
+.NewFoote_SoftBaksoLogo_Mobile_Div{
+    display: block;
+
+    margin: auto;
+    /*padding-left: 20px;*/
+}
+
+.SoftBakso_NewLogoImage_Mobile{
+    /*display:block;*/
+    margin: auto;
+    padding-left:10px;
+    padding-top:10px;
+    /*margin-left: 100px;*/
+}
+>>>>>>> d998f109d5068a3c8af387fdb474faa245912f2d

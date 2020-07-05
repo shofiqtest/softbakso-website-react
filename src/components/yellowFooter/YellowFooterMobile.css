@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.footerMobile {
+    background-image: url('./../../assets/images/NewFooter/Footer.png');
+    padding-top: 10px;
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    margin: auto;
+}
+
+.socialIcon-yellowFooter-mobile-a {
+    color: #000000;
+    cursor: pointer;
+}
+
+.socialIconsFooter-mobile-img {
+    width: 24px;
+}
+
+.footer_SoftBaksoLogo_Mobile_Div {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+    /*padding-left: 20px;*/
+}
+
+.SoftBakso_FooterLogoImage_Mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    /*margin: auto;*/
+    padding: 10px;
+    /*margin-left: 100px;*/
+}
+
+.paragraph-footer-adressMobile {
+    align-self: center;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-left: 10px;
+
+}
+
+
+
+
+
+.footerItemsLinearMobile {
+    margin-top: 0;
+}
+
+.paddingForArrowMobile {
+    color: #000000;
+    padding-left: 3px;
+    /*font-size: 15px;*/
+    font-family: Quicksand, sans-serif;
+    font-size: 8px;
+
+}
+
+.footer-div--QuickNav-Mobile {
+    /*margin: auto;*/
+    /*padding-top:10px;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*align-self: center;*/
+    /*align-content: center;*/
+    padding-top: 60px;
+    padding-right: 10px;
+
+}
+
+.footer__nav--linkMobile {
+    color: #000000;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1%;
+    display: flex;
+}
+
+
+
+.QuickNav-p-mobile {
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+
+}
+
+.noSpaceInP-Footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__div-1st--div-hrMobile {
+    align-items: center;
+}
+
+.footer__span-1st--hrMobile {
+    height: 1px;
+    font-weight: bold;
+    border: none;
+    /* Set the hr color */
+    color: #000000;
+    /* old IE */
+    background-color: #000000;
+    /* Modern Browsers */
+    display: flex;
+    width: 100%;
+
+}
+
+.footer__span-2-3--imgDivMobile {
+    /*width:25%;*/
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    /*display: flex;*/
+}
+
+.footer__span-2-3--imgDiv {
+    /*width:25%;*/
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /*display: flex;*/
+}
+
+.footer__span-2-3__div--img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    margin: auto;
+    /*width:20%;*/
+    /*height:20%;*/
+    width: 51px;
+    /*height: auto*/
+
+    /*justify-content:center;*/
+    /*align-items: center;*/
+}
+
+.footer__span--h4-web {
+    /*font-family: Quicksand;*/
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    /*justify-content:center;*/
+    justify-content: flex-start;
+    margin: 0px;
+}
+
+.footer__nav--link {
+    color: #000000;
+    /*font-size:12px;*/
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1%;
+
+}
+
+
+footer__nav--link-Award {
+    color: #000000;
+    /*font-size:12px;*/
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1%;
+}

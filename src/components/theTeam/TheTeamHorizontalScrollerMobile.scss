@@ -1,0 +1,1187 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Podkova&display=swap');
+
+
+/*first phone was [iPhone]320 x 480 and it is getting bigger and bigger.*/
+
+
+.Team-Hr-Mobile {
+  height: 2px;
+  font-weight: bold;
+  border: none;
+  /* Set the hr color */
+  color: #000000;
+  /* old IE */
+  /* old IE */
+  background-color: #000000;
+  width:50%;
+  /* Modern Browsers */ }
+
+
+.icon-center-team-slider-web {
+  justify-content: center;
+  align-items: center; }
+
+.sliderMove-iconStyle-img-web {
+  /*width:auto;*/
+  max-width: calc( 50%);
+  //width: 50%;
+  height: auto;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: block;
+  /*display:flex;*/
+  /*overflow: hidden;*/ }
+
+
+
+
+.App--TeamHorizontalScrollar-Mobile {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  /*overflow-y: hidden !important;*/
+  /*overflow-x: hidden !important;*/
+  overflow-x: scroll !important;
+  /*scrollbar-base-color: #3a3ad8;*/
+
+  /*scrollbar-color: red yellow;*/
+
+
+
+}
+
+
+
+
+
+
+
+
+/* #region Default styles */
+
+
+//.teamCard--button{
+//background: url(./assets/iconleftarrow.png);
+////url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+//}
+
+/* #endregion */
+
+/* #region TheTeamCardWeb */
+/* TheTeamCardWeb */
+//.theTeam_card {
+
+// not true the below lines.
+// this card is responsible for rendering the
+// index element, which is active element.
+
+
+
+.theTeam_card {
+
+  //UNCOMMENT BORDER AND ANOTHER BACKGROUND TO MAKE WHITE
+  //border: 3px #f3f3f3 solid;
+  //background-color: #f3f3f3;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  //box-shadow: none|h-offset v-offset blur
+  //The optional third value adds a blur effect to the shadow.
+  transition: all 0.3s linear;
+  cursor: pointer;
+
+
+
+  @media only screen and (min-width: 600px) and (max-width: 1318px) {
+    //max-width: calc(100%);
+
+
+      padding: 10px;
+      max-width: 320px;
+      margin: 0 auto;
+
+    .location{
+
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000;
+
+    }
+  }
+
+  //to be excluded after testing
+  @media only screen and (min-width: 1318px) {
+
+      /*padding: 25px;*/
+      padding: 10px 40px 0px 10px;
+
+      max-width: 370px;
+      width: 340px;
+      margin: 0 25px;
+      //min-width: 320px;
+
+
+    .location{
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+
+    }
+  }
+
+  //padding-right:30px;
+  //max-width: 220px;
+  //max-width: 320px;
+  text-align: left;
+  /*margin: 0 auto;*/
+  /*margin: top right bottom left*/
+  //margin: 0 30px 0px 20px;
+
+  &:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+
+
+
+
+
+
+  .theTeam_details {
+    position: relative;
+    padding-top:15px;
+
+  }
+
+
+  img {
+
+    @media only screen and (min-width: 600px) and (max-width: 900px) {
+      //max-width: calc(100%);
+      max-width: calc(85%);
+      width: calc(85%);
+
+
+      margin: 0 auto;
+      display: block;
+    }
+
+    @media only screen and (min-width: 900px) and (max-width: 1318px) {
+      //max-width: calc(100%);
+      max-width: calc(85%);
+      width: calc(85%);
+      margin: 0 auto;
+      display: block;
+    }
+
+    //@media only screen and (max-width: 1200px) {
+    //  //max-width: calc(100%);
+    //  max-width: calc(29%);
+    //  margin: 0 auto;
+    //  display: block;
+    //}
+    @media only screen and (min-width: 1318px) {
+      //max-width: calc(100%);
+      max-width: calc(110%);
+      width: calc(110%);
+      margin: 0 auto;
+      display: block;
+    }
+
+
+
+    @media only screen and (min-width: 1918px) {
+      //max-width: calc(100%);
+      max-width: calc(110%);
+      width: calc(110%);
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+
+
+
+
+}
+
+
+.theTeam_cardMobile {
+  //UNCOMMENT BORDER AND ANOTHER BACKGROUND TO MAKE WHITE
+  //border: 3px #f3f3f3 solid;
+  //background-color: #f3f3f3;
+
+
+  /*IMPORTANT EFFECTS WITH THESE 3 LINES BELOW*/
+  /*box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);*/
+  /*border: 3px #f3f3f3 solid;*/
+  /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);*/
+
+  transition: all 0.3s linear;
+  cursor: pointer;
+
+  padding: 10px;
+  //max-width: 220px;
+  max-width: 320px;
+  text-align: left;
+  /*margin: 0 auto;*/
+  /*margin: top right bottom left*/
+  margin: 0 30px 0 20px;
+
+  &:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+  img {
+    //max-width: calc(100%);
+    max-width: 109px;
+    width:109px;
+    margin: 0 auto;
+    display: block;
+  }
+  .location{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+  }
+  //.nameAndDesignation
+  //p {
+  //  font-size: 24px;
+  //  position: relative;
+  //  font-weight: bold;
+  //  text-align: center;
+  //  margin: 0 auto;
+  //  color: #000000;
+  //}
+  .theTeam_details {
+    position: relative;
+    padding-top:15px;
+    //p{
+    //  font-weight: bold;
+    //  color: crimson;
+    //}
+  }
+}
+
+
+.theTeam_cards-slider-wrapper-mobile {
+  display: flex;
+  position: absolute; // position it to relative to theTeam_cards-slider class.
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  overflow-x: scroll;
+  width: 100%;
+  //located in the TheTeamCardWeb
+  .theTeam_cardMobile {
+    //height:210px;
+    //height: 219px; from 219 to 181 in 26th july 2019.
+    //height: 181px;
+    height: 183px;
+    cursor: pointer;
+    /*OTHER WISE IF YOU LESS THE HEIGHT VALUE LIKE (--211) WHITE SPACE WILL SHOW IN THE BOOTOM OF THE DIV*/
+    // this workProcess_card is responsible for single cards
+    // all of them not only the active one.
+    //...
+    //min-width: 325px; after bootstrap added. then changed to something
+    //other than 325px (like 354px) see below:
+    //<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    //PERCENTAGE VALUE WILL NOT WORK HERE.
+    //  min-width: 20%;
+    /*min-width: 90%;*/
+
+    // IMAGE SIZE GROWS WITH THIS VALUE, EACH OF THEM.
+    // 200 PX MAY BE A GOOD SIZE FOR MOBILES, TOO
+    /*EVERY ITEMS [theTeam_card] LENGTH WILL NOT SHRNK EVEN FOR SMALLER DEVICES*/
+    //min-width: 220px;
+    //WITH HELD FOR MOBILE
+    /*min-width: 220px;*/
+    //min-width: 354px;
+    //min-width: 354px;
+    flex: 1;
+    opacity: 0.7;
+
+    transform: scale(0.9);
+
+
+    box-shadow: none;
+
+    //background-color: white;
+    //UNCOMMENT THIS FOR MAKING THEM WHITE COLOR WHEN NOT ACTIVE
+    //background-color: #C4C4C4;
+    //border-color: #C4C4C4;
+    //UNCOMMENT THIS FOR MAKING THEM WHITE COLOR WHEN NOT ACTIVE
+
+    //border-color: white;
+    transition: opacity 300ms ease-in-out, border-color 300ms ease-in-out, background-color 300ms ease-in-out,
+    transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+
+
+
+    //transition: opacity 300ms linear, border-color 300ms linear, background-color 300ms linear,
+    //transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+    .theTeam_details {
+      opacity: 0.9;
+      transition: opacity 150ms linear;
+    }
+
+  }
+
+}
+
+
+
+.theTeam_cards-slider-wrapper-mobile::-webkit-scrollbar {
+  width: 10px;
+  background-color: #FFCB0C;
+  /*margin-top:-33px;*/
+}
+
+/* Track */
+.theTeam_cards-slider-wrapper-mobile::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.theTeam_cards-slider-wrapper-mobile::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  /*background: darkgrey;*/
+  /*background: yellow;*/
+
+
+  border-radius: 10px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+  /*background-color: #D62929;*/
+  &:hover
+  {
+    /*background: dimgrey;*/
+    background: #c9302c;
+  }
+}
+
+/* Handle on hover */
+
+
+
+/* #end of region cards slider */
+
+
+ //not required to be excluded upon farther testing
+$i: 0;
+@for $i from 0 through 100 {
+  // loop it to the number of your
+  // elements in this case persons.
+  //.theTeam_cards-slider.active-slide-#{$i} #card-#{$i} {
+  //this to this below -->
+  .theTeam_cards-slider.active-slide-#{$i} #teamCard-#{$i} {
+    opacity: 1;
+    transform: scale(1);
+
+    background-color: #C4C4C4;
+    border-color: #C4C4C4;
+    //background-color: grey;
+    //border-color:     grey;
+    //background-color: #f3f3f3; grey white.
+    //border-color: #f3f3f3; grey white.
+    .theTeam_details {
+      opacity: 1;
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 1318px){
+      p {
+        font-weight: bold;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+      }
+    }
+
+    @media only screen and (min-width: 1318px) {
+      p {
+        font-weight: bold;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+//not required to be excluded upon farther testing
+
+
+$i: 0;
+@for $i from 0 through 100 {
+  // loop it to the number of your
+  // elements in this case persons.
+  //.theTeam_cards-slider.active-slide-#{$i} #card-#{$i} {
+  //this to this below -->
+  .theTeam_cards-slider-mobile.active-slide-mobile-#{$i} #teamCardMobile-#{$i} {
+    opacity: 1;
+    transform: scale(1);
+
+    background-color: #C4C4C4;
+    border-color:     #C4C4C4;
+    //background-color: grey;
+    //border-color:     grey;
+    //background-color: #f3f3f3; grey white.
+    //border-color: #f3f3f3; grey white.
+    .theTeam_details {
+      opacity: 1;
+    }
+    p{
+      font-weight: bold;
+      color: #000000;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+    }
+  }
+}
+
+
+
+.theTeam_col_mobile{
+  /*PERCENTAGE DON'T WORK'*/
+  /*PERCENTAGE DON'T WORK'*/
+  /*PERCENTAGE DON'T WORK'*/
+  //height: 176px;
+  //height: 218px; from 218px to 180px on 26th july 2019.
+  height: 180px;
+
+  //margin-bottom: 01px;
+  //height: 264px;
+  //height: 300px;
+  //height: 50%;
+  position: relative;
+  &:before,
+  &:after {
+    /*padding-right:90px;*/
+    /*PADDING DON'T WORK HERE*/
+    content: '';
+    display: block;
+    width: 20%;
+    //HEIGHT DON'T WORK HERE
+    //height:100%;
+    //height: 220px;
+    //width: 100%;
+    //height: 50%;
+    //height: 220px;
+    //background: linear-gradient(to right, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 100%);
+    //background: linear-gradient(to right, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0) 100%);
+    //linear-gradient(to right, rgba(white, opacity: 1, 1 is default (1=none);
+    // form edge to right, white will cover everything in the left, from right ) 15%, rgba(255, 255, 255, 0) 100%);
+    //background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  &:after {
+    left: auto;
+    right: 0;
+    //height don't work here
+    //height: 220px;
+    //background: linear-gradient(to left, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 100%);
+    //background: linear-gradient(to left, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
+
+
+.theTeam_cards-slider-mobile {
+  position: relative;
+  white-space: nowrap;
+
+  //max-width: 226px;
+
+  //max-width: 325px;
+  //made to 425 px and found in better
+
+  /*max-width: 425px;*/
+  /*max-width: 525px;*/
+  /*UNCOMMENTED THIS ON 09TH JULY 2019*/
+  /*max-width: 90%;*/
+  /*UNCOMMENTED THIS ON 09TH JULY 2019*/
+  //when maded 235px to 425 px the outer border with blue color got bigger.
+  // the outer square border solid is controlled by this class.
+
+  //left: 60px;
+  //commented this from left: 60px.
+  /*left: 60px;*/
+  //margin: 0 auto;
+  //margin-right:44px;
+
+  //TEMPORARY FIX
+  //padding-left:20px;
+  //
+  //left:40px;
+
+  //margin-left: 30px;
+  margin: 0 auto;
+  //height:400px; HEIGHT DON'T WORK HERE.
+
+  // boder for active property
+  //in css this is .theTeam_cards-slider:after {
+  &:after {
+    content: '';
+    display: block;
+    //width: 100%;
+    width: 20%;
+    /*width: 100px;*/
+    //width: 200px;
+    //width: 100%;
+    //height: 264px;
+    //height: 300px;
+    //height: 280px;
+    //height:240px;
+    // if lowered to 280 px the rectangle shrinks in the bottom
+    // PERCENTAGE VALUE DOSN'T WORK HERE.
+    //outline: 5px solid #61DAFB;
+    /*width: 100px;*/
+    /*height: 240px;*/
+    /*HEIGHT NOT TO BE USED HERE, UNCLICKABILITY OCCURS WHEN HIGHT IS DEFINED.*/
+    /*outline: 5px solid #61DAFB;*/
+    position: absolute;
+    top: 0;
+    //left: 0;
+    //left: 80px;
+    left: 60px;
+    //thus it will left by 4px other wise border 4px will be
+    // outside and if the color is same then it looks odd.
+    // if the color is different then looks great.
+    /*padding-right: 10px;*/
+    /* padding didn't  work'*/
+  }
+}
+
+/* #endregion */
+
+
+.socialIconsStyle{
+  margin-left:7px;
+}
+
+
+
+=======
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Podkova&display=swap');
+
+
+/*first phone was [iPhone]320 x 480 and it is getting bigger and bigger.*/
+
+
+.Team-Hr-Mobile {
+  height: 2px;
+  font-weight: bold;
+  border: none;
+  /* Set the hr color */
+  color: #000000;
+  /* old IE */
+  /* old IE */
+  background-color: #000000;
+  width:50%;
+  /* Modern Browsers */ }
+
+
+.icon-center-team-slider-web {
+  justify-content: center;
+  align-items: center; }
+
+.sliderMove-iconStyle-img-web {
+  /*width:auto;*/
+  max-width: calc( 50%);
+  //width: 50%;
+  height: auto;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  display: block;
+  /*display:flex;*/
+  /*overflow: hidden;*/ }
+
+
+
+
+.App--TeamHorizontalScrollar-Mobile {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  /*overflow-y: hidden !important;*/
+  /*overflow-x: hidden !important;*/
+  overflow-x: scroll !important;
+  /*scrollbar-base-color: #3a3ad8;*/
+
+  /*scrollbar-color: red yellow;*/
+
+
+
+}
+
+
+
+
+
+
+
+
+/* #region Default styles */
+
+
+//.teamCard--button{
+//background: url(./assets/iconleftarrow.png);
+////url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+//}
+
+/* #endregion */
+
+/* #region TheTeamCardWeb */
+/* TheTeamCardWeb */
+//.theTeam_card {
+
+// not true the below lines.
+// this card is responsible for rendering the
+// index element, which is active element.
+
+
+
+.theTeam_card {
+
+  //UNCOMMENT BORDER AND ANOTHER BACKGROUND TO MAKE WHITE
+  //border: 3px #f3f3f3 solid;
+  //background-color: #f3f3f3;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  //box-shadow: none|h-offset v-offset blur
+  //The optional third value adds a blur effect to the shadow.
+  transition: all 0.3s linear;
+  cursor: pointer;
+
+
+
+  @media only screen and (min-width: 600px) and (max-width: 1318px) {
+    //max-width: calc(100%);
+
+
+      padding: 10px;
+      max-width: 320px;
+      margin: 0 auto;
+
+    .location{
+
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #000000;
+
+    }
+  }
+
+  //to be excluded after testing
+  @media only screen and (min-width: 1318px) {
+
+      /*padding: 25px;*/
+      padding: 10px 40px 0px 10px;
+
+      max-width: 370px;
+      width: 340px;
+      margin: 0 25px;
+      //min-width: 320px;
+
+
+    .location{
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+
+    }
+  }
+
+  //padding-right:30px;
+  //max-width: 220px;
+  //max-width: 320px;
+  text-align: left;
+  /*margin: 0 auto;*/
+  /*margin: top right bottom left*/
+  //margin: 0 30px 0px 20px;
+
+  &:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+
+
+
+
+
+
+  .theTeam_details {
+    position: relative;
+    padding-top:15px;
+
+  }
+
+
+  img {
+
+    @media only screen and (min-width: 600px) and (max-width: 900px) {
+      //max-width: calc(100%);
+      max-width: calc(85%);
+      width: calc(85%);
+
+
+      margin: 0 auto;
+      display: block;
+    }
+
+    @media only screen and (min-width: 900px) and (max-width: 1318px) {
+      //max-width: calc(100%);
+      max-width: calc(85%);
+      width: calc(85%);
+      margin: 0 auto;
+      display: block;
+    }
+
+    //@media only screen and (max-width: 1200px) {
+    //  //max-width: calc(100%);
+    //  max-width: calc(29%);
+    //  margin: 0 auto;
+    //  display: block;
+    //}
+    @media only screen and (min-width: 1318px) {
+      //max-width: calc(100%);
+      max-width: calc(110%);
+      width: calc(110%);
+      margin: 0 auto;
+      display: block;
+    }
+
+
+
+    @media only screen and (min-width: 1918px) {
+      //max-width: calc(100%);
+      max-width: calc(110%);
+      width: calc(110%);
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+
+
+
+
+}
+
+
+.theTeam_cardMobile {
+  //UNCOMMENT BORDER AND ANOTHER BACKGROUND TO MAKE WHITE
+  //border: 3px #f3f3f3 solid;
+  //background-color: #f3f3f3;
+
+
+  /*IMPORTANT EFFECTS WITH THESE 3 LINES BELOW*/
+  /*box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);*/
+  /*border: 3px #f3f3f3 solid;*/
+  /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);*/
+
+  transition: all 0.3s linear;
+  cursor: pointer;
+
+  padding: 10px;
+  //max-width: 220px;
+  max-width: 320px;
+  text-align: left;
+  /*margin: 0 auto;*/
+  /*margin: top right bottom left*/
+  margin: 0 30px 0 20px;
+
+  &:hover {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+  img {
+    //max-width: calc(100%);
+    max-width: 109px;
+    width:109px;
+    margin: 0 auto;
+    display: block;
+  }
+  .location{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    color: #000000;
+  }
+  //.nameAndDesignation
+  //p {
+  //  font-size: 24px;
+  //  position: relative;
+  //  font-weight: bold;
+  //  text-align: center;
+  //  margin: 0 auto;
+  //  color: #000000;
+  //}
+  .theTeam_details {
+    position: relative;
+    padding-top:15px;
+    //p{
+    //  font-weight: bold;
+    //  color: crimson;
+    //}
+  }
+}
+
+
+.theTeam_cards-slider-wrapper-mobile {
+  display: flex;
+  position: absolute; // position it to relative to theTeam_cards-slider class.
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  overflow-x: scroll;
+  width: 100%;
+  //located in the TheTeamCardWeb
+  .theTeam_cardMobile {
+    //height:210px;
+    //height: 219px; from 219 to 181 in 26th july 2019.
+    //height: 181px;
+    height: 183px;
+    cursor: pointer;
+    /*OTHER WISE IF YOU LESS THE HEIGHT VALUE LIKE (--211) WHITE SPACE WILL SHOW IN THE BOOTOM OF THE DIV*/
+    // this workProcess_card is responsible for single cards
+    // all of them not only the active one.
+    //...
+    //min-width: 325px; after bootstrap added. then changed to something
+    //other than 325px (like 354px) see below:
+    //<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    //PERCENTAGE VALUE WILL NOT WORK HERE.
+    //  min-width: 20%;
+    /*min-width: 90%;*/
+
+    // IMAGE SIZE GROWS WITH THIS VALUE, EACH OF THEM.
+    // 200 PX MAY BE A GOOD SIZE FOR MOBILES, TOO
+    /*EVERY ITEMS [theTeam_card] LENGTH WILL NOT SHRNK EVEN FOR SMALLER DEVICES*/
+    //min-width: 220px;
+    //WITH HELD FOR MOBILE
+    /*min-width: 220px;*/
+    //min-width: 354px;
+    //min-width: 354px;
+    flex: 1;
+    opacity: 0.7;
+
+    transform: scale(0.9);
+
+
+    box-shadow: none;
+
+    //background-color: white;
+    //UNCOMMENT THIS FOR MAKING THEM WHITE COLOR WHEN NOT ACTIVE
+    //background-color: #C4C4C4;
+    //border-color: #C4C4C4;
+    //UNCOMMENT THIS FOR MAKING THEM WHITE COLOR WHEN NOT ACTIVE
+
+    //border-color: white;
+    transition: opacity 300ms ease-in-out, border-color 300ms ease-in-out, background-color 300ms ease-in-out,
+    transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+
+
+
+    //transition: opacity 300ms linear, border-color 300ms linear, background-color 300ms linear,
+    //transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+    .theTeam_details {
+      opacity: 0.9;
+      transition: opacity 150ms linear;
+    }
+
+  }
+
+}
+
+
+
+.theTeam_cards-slider-wrapper-mobile::-webkit-scrollbar {
+  width: 10px;
+  background-color: #FFCB0C;
+  /*margin-top:-33px;*/
+}
+
+/* Track */
+.theTeam_cards-slider-wrapper-mobile::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.theTeam_cards-slider-wrapper-mobile::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  /*background: darkgrey;*/
+  /*background: yellow;*/
+
+
+  border-radius: 10px;
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+  /*background-color: #D62929;*/
+  &:hover
+  {
+    /*background: dimgrey;*/
+    background: #c9302c;
+  }
+}
+
+/* Handle on hover */
+
+
+
+/* #end of region cards slider */
+
+
+ //not required to be excluded upon farther testing
+$i: 0;
+@for $i from 0 through 100 {
+  // loop it to the number of your
+  // elements in this case persons.
+  //.theTeam_cards-slider.active-slide-#{$i} #card-#{$i} {
+  //this to this below -->
+  .theTeam_cards-slider.active-slide-#{$i} #teamCard-#{$i} {
+    opacity: 1;
+    transform: scale(1);
+
+    background-color: #C4C4C4;
+    border-color: #C4C4C4;
+    //background-color: grey;
+    //border-color:     grey;
+    //background-color: #f3f3f3; grey white.
+    //border-color: #f3f3f3; grey white.
+    .theTeam_details {
+      opacity: 1;
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 1318px){
+      p {
+        font-weight: bold;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+      }
+    }
+
+    @media only screen and (min-width: 1318px) {
+      p {
+        font-weight: bold;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+      }
+    }
+  }
+
+}
+
+//not required to be excluded upon farther testing
+
+
+$i: 0;
+@for $i from 0 through 100 {
+  // loop it to the number of your
+  // elements in this case persons.
+  //.theTeam_cards-slider.active-slide-#{$i} #card-#{$i} {
+  //this to this below -->
+  .theTeam_cards-slider-mobile.active-slide-mobile-#{$i} #teamCardMobile-#{$i} {
+    opacity: 1;
+    transform: scale(1);
+
+    background-color: #C4C4C4;
+    border-color:     #C4C4C4;
+    //background-color: grey;
+    //border-color:     grey;
+    //background-color: #f3f3f3; grey white.
+    //border-color: #f3f3f3; grey white.
+    .theTeam_details {
+      opacity: 1;
+    }
+    p{
+      font-weight: bold;
+      color: #000000;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+    }
+  }
+}
+
+
+
+.theTeam_col_mobile{
+  /*PERCENTAGE DON'T WORK'*/
+  /*PERCENTAGE DON'T WORK'*/
+  /*PERCENTAGE DON'T WORK'*/
+  //height: 176px;
+  //height: 218px; from 218px to 180px on 26th july 2019.
+  height: 180px;
+
+  //margin-bottom: 01px;
+  //height: 264px;
+  //height: 300px;
+  //height: 50%;
+  position: relative;
+  &:before,
+  &:after {
+    /*padding-right:90px;*/
+    /*PADDING DON'T WORK HERE*/
+    content: '';
+    display: block;
+    width: 20%;
+    //HEIGHT DON'T WORK HERE
+    //height:100%;
+    //height: 220px;
+    //width: 100%;
+    //height: 50%;
+    //height: 220px;
+    //background: linear-gradient(to right, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 100%);
+    //background: linear-gradient(to right, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0) 100%);
+    //linear-gradient(to right, rgba(white, opacity: 1, 1 is default (1=none);
+    // form edge to right, white will cover everything in the left, from right ) 15%, rgba(255, 255, 255, 0) 100%);
+    //background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  &:after {
+    left: auto;
+    right: 0;
+    //height don't work here
+    //height: 220px;
+    //background: linear-gradient(to left, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 0) 100%);
+    //background: linear-gradient(to left, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 0) 100%);
+  }
+}
+
+
+
+.theTeam_cards-slider-mobile {
+  position: relative;
+  white-space: nowrap;
+
+  //max-width: 226px;
+
+  //max-width: 325px;
+  //made to 425 px and found in better
+
+  /*max-width: 425px;*/
+  /*max-width: 525px;*/
+  /*UNCOMMENTED THIS ON 09TH JULY 2019*/
+  /*max-width: 90%;*/
+  /*UNCOMMENTED THIS ON 09TH JULY 2019*/
+  //when maded 235px to 425 px the outer border with blue color got bigger.
+  // the outer square border solid is controlled by this class.
+
+  //left: 60px;
+  //commented this from left: 60px.
+  /*left: 60px;*/
+  //margin: 0 auto;
+  //margin-right:44px;
+
+  //TEMPORARY FIX
+  //padding-left:20px;
+  //
+  //left:40px;
+
+  //margin-left: 30px;
+  margin: 0 auto;
+  //height:400px; HEIGHT DON'T WORK HERE.
+
+  // boder for active property
+  //in css this is .theTeam_cards-slider:after {
+  &:after {
+    content: '';
+    display: block;
+    //width: 100%;
+    width: 20%;
+    /*width: 100px;*/
+    //width: 200px;
+    //width: 100%;
+    //height: 264px;
+    //height: 300px;
+    //height: 280px;
+    //height:240px;
+    // if lowered to 280 px the rectangle shrinks in the bottom
+    // PERCENTAGE VALUE DOSN'T WORK HERE.
+    //outline: 5px solid #61DAFB;
+    /*width: 100px;*/
+    /*height: 240px;*/
+    /*HEIGHT NOT TO BE USED HERE, UNCLICKABILITY OCCURS WHEN HIGHT IS DEFINED.*/
+    /*outline: 5px solid #61DAFB;*/
+    position: absolute;
+    top: 0;
+    //left: 0;
+    //left: 80px;
+    left: 60px;
+    //thus it will left by 4px other wise border 4px will be
+    // outside and if the color is same then it looks odd.
+    // if the color is different then looks great.
+    /*padding-right: 10px;*/
+    /* padding didn't  work'*/
+  }
+}
+
+/* #endregion */
+
+
+.socialIconsStyle{
+  margin-left:7px;
+}
+
+
+
+>>>>>>> d998f109d5068a3c8af387fdb474faa245912f2d

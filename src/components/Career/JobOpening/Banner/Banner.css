@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900&display=swap');
+
+.jobs-post {
+    background-size: cover;
+    background: url('../../assets/Rectangle.png') center center;
+    height: 660px;
+    position: relative;
+}
+
+.jobs-post::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.41), rgba(0, 0, 0, 0.41));
+    height: 100%;
+    width: 100%;
+}
+
+.post-text {
+    transform: translate(0%, 100%);
+}
+
+.post-main-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.post-main-text {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/* Media query */
+@media (min-width: 1281px) {}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .post-text {
+        transform: translate(0%, 62%);
+    }
+
+    .post-main-title {
+        font-size: 50px;
+    }
+
+    .post-main-text {
+        font-size: 15px;
+    }
+
+    .jobs-post {
+        height: 450px;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .post-main-text {
+        font-size: 12px;
+    }
+
+    .post-main-title {
+        font-size: 50px;
+        margin-bottom: 12px;
+    }
+
+    .jobs-post {
+        height: 370px;
+    }
+    .post-text {
+        transform: translate(0%, 70%);
+    }
+}

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Impact;
+    src: url('../../assets/impact/impact.ttf');
+    /*src: url(sansation_light.woff);*/
+}
+
+
+.suscription-mainDivWEB {
+
+
+    background-image: url('./../../assets/images/subscription/subscription.png');
+
+
+    background-position: 100% center;
+
+    height: 310px;
+
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+
+    opacity: 0.9;
+
+    background-blend-mode: multiply;
+
+}
+
+
+.subscription-Text-Web {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height */
+    margin: 0;
+    padding-bottom: 09px;
+    color: #000000;
+
+}
+
+.subscription-Text-Web Strong {
+    font-size: 17px;
+}
+
+
+.inputAndIconDiv-web input {
+    color: #000000;
+}
+
+
+.simple-subscription-form-Web {
+    padding: 2rem;
+    border-radius: 0;
+
+    position: relative;
+    margin: 0 auto;
+
+    top: 30%;
+    left: 30%;
+    filter: alpha(opacity=100);
+
+}
+
+.simple-subscription-form-Web:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+/* Style the input fields */
+.input-containerWeb {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Style the input fields */
+.input-fieldWeb {
+    /*width: 50%;*/
+    padding: 10px;
+    outline: none;
+    width: 50%;
+    /*background: #C4C4C4;*/
+    /*mix-blend-mode: overlay;*/
+    background: transparent;
+    border: 0.8px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 10px rgba(250, 207, 55, 0.25);
+
+}
+
+
+input:hover,
+input:focus {
+    color: black;
+}
+
+
+/* Style the form icons */
+
+
+
+.iconWeb {
+    padding-top: 15px;
+    /*padding-right: 17px;*/
+    padding-bottom: 15px;
+    /*padding-left: 17px;*/
+
+    background: whitesmoke;
+    /*color: black;*/
+    min-width: 50px;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 10px rgba(250, 207, 55, 0.25);
+}
+
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

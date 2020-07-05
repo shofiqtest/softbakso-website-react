@@ -1,0 +1,18 @@
+1. npm install -g npm@latest
+2. rm package-lock.json
+3. rm -rf node_modules
+4. npm install
+5. npm start
+
+
+=========================ISSUES=====================
+--------TOUCH this only issue arise--------------------
+
+if this is faild to start then open
+
+pakage.json file and change 
+
+ "prestart": "npm run build-css", 
+to  "prestart": "npm run build css",
+
+then npm start
