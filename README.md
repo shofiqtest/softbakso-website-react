@@ -70,5 +70,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 =======
 # Softbakso website
 
-Website for the softbakso ltd it self and it onwer is @shofiqul.
->>>>>>> d998f109d5068a3c8af387fdb474faa245912f2d
+Website for the softbakso ltd it self and it onwer is @Shofiqul.
+
